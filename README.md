@@ -5,7 +5,7 @@ Application to recommend your champ selection based on yours + enemies' team com
 Data Used:
 (currently)
 
-PLAN (as a reminder to myself so that I don't forget)
+## PLAN (as a reminder to myself so that I don't forget)
 
 The kaggle dataset used is old but is large and contains a lot of information so is useful to build up a method that works well as a proof of concept.
 First I would like to build 2 different models and test these to see how well they work before looking for potential improvements:
