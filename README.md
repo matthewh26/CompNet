@@ -5,6 +5,12 @@ Application to recommend your champ selection based on yours + enemies' team com
 Data Used: https://www.kaggle.com/datasets/paololol/league-of-legends-ranked-matches
 (currently)
 
+## FILES
+
+- data_create.py: This uses all of the files (located above) to create a dataset I can use for modelling purposes
+- win_predict.py: The file containing the neural net framework
+- main.py: The file you need to run to actually get your custom champion recommendations!
+
 ## PLAN (as a reminder to myself so that I don't forget)
 
 The kaggle dataset used is old but is large and contains a lot of information so is useful to build up a method that works well as a proof of concept.
