@@ -19,6 +19,7 @@ First I would like to build 2 different models and test these to see how well th
 These are my initial ideas, and also it will be quite hard to test how effective they are. I can see if the approach of averaging is any good by holding out some data and 
 finding the average euclidean distance between averaged match stats and actual (i.e. if the averaged stats are averaging <2 kills away from actual this is pretty good).
 Can then research more/ increase complexity of this if it is good with heuristics etc.
+
 Naive model I can test by using it??? To play a lot of games, and see what the win rate is like with/without it but that is quite time consuming. This model is probably more meant 
 as a baseline anyway.
 
