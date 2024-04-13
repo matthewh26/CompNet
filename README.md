@@ -23,5 +23,6 @@ Naive model I can test by using it??? To play a lot of games, and see what the w
 as a baseline anyway.
 
 Would also be extremely beneficial to add in heuristics regarding the individual player, such as champion proficiency (so for example me if I am using it)
+However for testing, I can just play the highest 'rated' champ that is in my champ pool (of like 7 champs lol)
 
 End goal is to get Riot approval and create a functioning web application that I can use to get me to diamond ;) 
