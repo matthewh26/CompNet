@@ -16,7 +16,12 @@ First I would like to build 2 different models and test these to see how well th
       activation output can be treated as a 'win probability' for this champ combination. Across all champs, the win prob is averaged and the champ with the highest
       average win prob is what you pick.
 
-These are pretty basic ideas but will hold out a bit of the data for validation and see if I am onto something with any of these methods. Can then research more/ increase
-complexity of these if they are good with heuristics etc.
+These are my initial ideas, and also it will be quite hard to test how effective they are. I can see if the approach of averaging is any good by holding out some data and 
+finding the average euclidean distance between averaged match stats and actual (i.e. if the averaged stats are averaging <2 kills away from actual this is pretty good).
+Can then research more/ increase complexity of this if it is good with heuristics etc.
+Naive model I can test by using it??? To play a lot of games, and see what the win rate is like with/without it but that is quite time consuming. This model is probably more meant 
+as a baseline anyway.
+
+Would also be extremely beneficial to add in heuristics regarding the individual player, such as champion proficiency (so for example me if I am using it)
 
 End goal is to get Riot approval and create a functioning web application that I can use to get me to diamond ;) 
