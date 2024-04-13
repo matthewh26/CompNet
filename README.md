@@ -2,7 +2,7 @@
 
 Application to recommend your champ selection based on yours + enemies' team comp
 
-Data Used:
+Data Used: https://www.kaggle.com/datasets/paololol/league-of-legends-ranked-matches
 (currently)
 
 ## PLAN (as a reminder to myself so that I don't forget)
