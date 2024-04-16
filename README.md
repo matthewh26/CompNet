@@ -13,7 +13,7 @@ Data Used: https://www.kaggle.com/datasets/paololol/league-of-legends-ranked-mat
 
 ### Naive - folder for method 1 (naive model)
 
--winrates.py: contains function for calculating winrates
+- winrates.py: contains function for calculating winrates
 
 ## PLAN (as a reminder to myself so that I don't forget)
 
