@@ -1,4 +1,4 @@
-# CompNet
+# ELOslingshot
 
 Application to recommend your champ selection based on yours + enemies' team comp
 
