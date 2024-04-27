@@ -11,11 +11,11 @@ Data Used: https://www.kaggle.com/datasets/paololol/league-of-legends-ranked-mat
 - win_predict.py: The file containing the neural net framework
 - main.py: The file you need to run to actually get your custom champion recommendations!
 
-### App - folder for method 1 (naive model)
+### App - folder for web app (development)
 
-- this folder contains files needed to run a localhost web app where you can interactively submit imformation about your lobby and the
-  app will return the recommended champ you should play along with a prediction of the win probability. It uses the naive method of taking the winrates of every 
-  possible champ with every other champ in the game and averaging these. Still a WIP, so far styling is very basic and you can only input allied champs.
+This folder contains files needed to run a localhost web app where you can interactively submit imformation about your lobby and the
+app will return the recommended champ you should play along with a prediction of the win probability. It uses the naive method of taking the winrates of every 
+possible champ with every other champ in the game and averaging these. Still a WIP, so far styling is very basic and you can only input allied champs.
 
 - static: contains styling for the pages and also winrates.py, containing a function for calculating winrates from the dataset used by the app.
 - app.py: the file that runs the app.
