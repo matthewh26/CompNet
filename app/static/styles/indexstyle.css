@@ -1,0 +1,37 @@
+#header{
+    color: rgb(96, 96, 193);
+    text-align: center;
+}
+
+p{
+    color: rgb(96, 96, 193);
+    text-align: center; 
+}
+
+.player {
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    position: fixed;
+    left: 50%;
+    margin-left: -50px
+}
+
+#role {
+    display: block;
+    margin: auto;
+    text-align: center; 
+}
+
+.dropdown{
+    display: inline-block;   
+}
+
+label{
+    text-align: center;
+}
+
+
+select{
+    text-align: center;
+}

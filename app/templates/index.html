@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>ELO Slingshot</title>
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/indexstyle.css') }}">
+</head>
+
+<body>
+    <h1 id="header">ELOSLINGSHOT</h1>
+    <p>This website allows you to choose the optimal champ to win your ranked games based on the current picks in draft.</p>
+
+    <form action="/list/" method = "post">
+        <div class="player">
+            <label for="role" id="role_label">Choose a role:</label>
+            <select name="role" id="role">
+                <option value="TOP">Top</option>
+                <option value="JUNGLE">Jungle</option>
+                <option value="MID">Mid</option>
+                <option value="DUO_CARRY">Bot</option>
+                <option value="DUO_SUPPORT">Support</option>
+            </select>
+        </div>
+
+        <br>
+        <br>
+        <br>
+
+        <div class="other_players">
+            <div class="dropdown">
+                <label for="a_top">TOP:</label>
+                <select name="a_top" id="a_top">
+                    <option value="">-</option>
+                    <option value=266>Aatrox</option>
+                    <option value=34>Anivia</option>
+                    <option value=1>Annie</option>
+                    <option value=164>Camille</option>
+                    <option value=114>Fiora</option>
+                    <option value=24>Jax</option>
+                    <option value=82>Mordekaiser</option>
+                    <option value=2>Olaf</option>
+                    <option value=37>Sona</option>
+                    <option value=18>Tristana</option>
+                    <option value=110>Varus</option>
+                    <option value=106>Volibear</option>
+                    <option value=154>Zac</option>
+                </select>
+            </div>
+            <div class="dropdown">
+                <label for="a_jgl">JGL:</label>
+                <select name="a_jgl" id="a_jgl">
+                    <option value="">-</option>
+                    <option value=266>Aatrox</option>
+                    <option value=34>Anivia</option>
+                    <option value=1>Annie</option>
+                    <option value=164>Camille</option>
+                    <option value=114>Fiora</option>
+                    <option value=24>Jax</option>
+                    <option value=82>Mordekaiser</option>
+                    <option value=2>Olaf</option>
+                    <option value=37>Sona</option>
+                    <option value=18>Tristana</option>
+                    <option value=110>Varus</option>
+                    <option value=106>Volibear</option>
+                    <option value=154>Zac</option>
+                </select>
+            </div>
+            <div class="dropdown">
+                <label for="a_mid">MID:</label>
+                <select name="a_mid" id="a_mid">
+                    <option value="">-</option>
+                    <option value=266>Aatrox</option>
+                    <option value=34>Anivia</option>
+                    <option value=1>Annie</option>
+                    <option value=164>Camille</option>
+                    <option value=114>Fiora</option>
+                    <option value=24>Jax</option>
+                    <option value=82>Mordekaiser</option>
+                    <option value=2>Olaf</option>
+                    <option value=37>Sona</option>
+                    <option value=18>Tristana</option>
+                    <option value=110>Varus</option>
+                    <option value=106>Volibear</option>
+                    <option value=154>Zac</option>
+                </select>
+            </div>
+            <div class="dropdown">
+                <label for="a_bot">BOT:</label>
+                <select name="a_bot" id="a_bot">
+                    <option value="">-</option>
+                    <option value=266>Aatrox</option>
+                    <option value=34>Anivia</option>
+                    <option value=1>Annie</option>
+                    <option value=164>Camille</option>
+                    <option value=114>Fiora</option>
+                    <option value=24>Jax</option>
+                    <option value=82>Mordekaiser</option>
+                    <option value=2>Olaf</option>
+                    <option value=37>Sona</option>
+                    <option value=18>Tristana</option>
+                    <option value=110>Varus</option>
+                    <option value=106>Volibear</option>
+                    <option value=154>Zac</option>
+                </select>
+            </div>
+            <div class="dropdown">
+                <label for="a_sup">SUP:</label>
+                <select name="a_sup" id="a_sup">
+                    <option value="">-</option>
+                    <option value=266>Aatrox</option>
+                    <option value=34>Anivia</option>
+                    <option value=1>Annie</option>
+                    <option value=164>Camille</option>
+                    <option value=114>Fiora</option>
+                    <option value=24>Jax</option>
+                    <option value=82>Mordekaiser</option>
+                    <option value=2>Olaf</option>
+                    <option value=37>Sona</option>
+                    <option value=18>Tristana</option>
+                    <option value=110>Varus</option>
+                    <option value=106>Volibear</option>
+                    <option value=154>Zac</option>
+                </select>
+            </div>
+
+        </div>
+
+        <br>
+
+        <input type="submit" value="Submit" />
+    </form>
+
+</body>
+</html>
