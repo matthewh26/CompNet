@@ -8,8 +8,8 @@ Data Used: https://www.kaggle.com/datasets/paololol/league-of-legends-ranked-mat
 ## FILES
 
 - data_create.py: This uses some of the files (located above) to create a dataset I can use for modelling purposes
-- win_predict.py: The file containing the neural net framework
-- main.py: The file you need to run to actually get your custom champion recommendations!
+- win_predict.py: The file containing the neural net framework (not currently used)
+- main.py: The file you need to run to actually get your custom champion recommendations! (not currently used)
 
 ### App - folder for web app (development)
 
