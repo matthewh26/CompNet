@@ -28,7 +28,7 @@ To use:
 4. Install flask on your environment: **pip install flask**
 5. Navigate to app directory.
 6. Run the following: **flask run**
-7. Put the URL given into your browser, and have a go with the app! 
+7. Put the URL given into your browser, and have a go with the app!(try and select champs in the role that they are conventionally played, otherwise there may not be enough data to give a result)
 
 ## PLAN (as a reminder to myself so that I don't forget)
 
